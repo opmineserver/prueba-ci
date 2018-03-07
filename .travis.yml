@@ -93,4 +93,3 @@ jobs:
          body: [CHANGELOG](https://$GIT_USER.github.io/$GIT_REPO/changelogs/CHANGELOG-$APP_VERSION)
          on:
            condition: -z $DO_RELEASE
-   
