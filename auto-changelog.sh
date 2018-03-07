@@ -7,7 +7,7 @@ if [[ $(git tag -l "$APP_VERSION") != $APP_VERSION ]]; then
 	cd repo
 	mkdir changelogs
 	cd changelogs
-	mv ../$GIT_REPO/CHANGELOG-$APP_VERSION.md CHANGELOG-$APP_VERSION.md
+	mv ../../$GIT_REPO/CHANGELOG-$APP_VERSION.md CHANGELOG-$APP_VERSION.md
 	cd ..
 	git add .
 	git commit -m "Changelog $APP_VERSION"
