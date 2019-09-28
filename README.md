@@ -13,4 +13,4 @@
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/opmineserver/prueba-ci.svg)
 
 # Prueba-CI
-Este es un proyecto de prueba. 
+Este es un proyecto de prueba.
